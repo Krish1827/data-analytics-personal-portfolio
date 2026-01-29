@@ -18,7 +18,7 @@ const ScrambleText = ({ text }) => {
   return <span>{display}</span>;
 };
 
-// NEW: Neural Data Nodes Background
+
 const NeuralNodes = () => {
   const nodes = Array.from({ length: 12 });
   return (

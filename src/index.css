@@ -99,3 +99,9 @@ h1 { font-size: clamp(2.2rem, 8vw, 6rem); line-height: 0.82; letter-spacing: -0.
 /* 6. System Scrollbar */
 ::-webkit-scrollbar { width: 4px; }
 ::-webkit-scrollbar-thumb { background: var(--neon); border-radius: 10px; }
+
+.profile-icon {
+  clip-path: polygon(25% 0%, 75% 0%, 100% 50%, 75% 100%, 25% 100%, 0% 50%);
+  border: 2px solid var(--neon);
+  box-shadow: 0 0 15px var(--neon);
+}
